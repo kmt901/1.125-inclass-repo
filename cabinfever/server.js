@@ -3,7 +3,7 @@ var app     = express();
 
 app.get('/', function(req,res){
    console.log(':)), Server New Hit: ' + timeStamp())
-   res.send(':)), Server New Hit: ' + timeStamp());
+   res.send('Welcome to Kayas Node.js express server :)), Server New Hit: ' + timeStamp());
 });
 
 function timeStamp(){
